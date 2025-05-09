@@ -1,6 +1,6 @@
 # Parameterized iterative Linear Quadratic Regulator (P-iLQR) and Differential Dynamic Programming (P-DDP)
 
-This repository contains an implementation of the iterative Linear Quadratic Regulator (iLQR) and Differential Dynamic Programming (DDP). 
+This repository contains an implementations of the iterative Linear Quadratic Regulator (iLQR) and Differential Dynamic Programming (DDP). 
 The computational cost is reduced by introducing a parametric representation of the control inputs, such as zero-order, linear, and cubic interpolations. 
 
 ## Motivation
@@ -27,6 +27,8 @@ The animation below shows the optimization progress.
 The left panel displays the xy-path, while the panels on the right show the time series of states and control inputs. 
 The dotted red line represents the original iLQR, and the blue line represents the P-iLQR. 
 As shown, P-iLQR reaches the optimal solution faster than the original iLQR.
+
+![Image](https://github.com/user-attachments/assets/230b24f3-a0f9-48a3-adac-851bd8841bd6)
  
 
 ## Citations
